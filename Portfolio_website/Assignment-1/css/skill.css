@@ -1,0 +1,46 @@
+/* Make sure that padding behaves as expected */
+.container-box {
+   box-sizing:border-box;
+   margin: 3%;
+   padding: 3%;
+   background: rgb(130, 233, 198);
+   box-shadow: 12px 12px 8px rgb(0,0,0,0.3);
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 44px;
+    color: #152725;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+.heading:hover{
+    color: #033f36;
+    text-decoration: underline 5px solid #033f36;
+    
+}
+.sub-heading{
+    margin: 3px;
+    font-weight: 800;
+    color: #051c24;
+}
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+  box-shadow: 12px 12px 8px rgb(0,0,0,0.3);
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white;
+}
+
+.html {width: 95%; background-color: #012518;} 
+.css {width: 80%; background-color: #011112;} 
+.js {width: 85%; background-color: #033f36;} 
+.php {width: 70%; background-color: #152725;} 

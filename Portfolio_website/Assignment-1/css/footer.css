@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+
+footer{
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #051c24;
+    height: 25%;
+    width: 100vw;
+    padding-top: 10px;
+    color: #fefefe;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    padding: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    line-height: 1rem;
+}
+
+.footer-content p{
+    padding: 3px;
+    margin: 3px auto;
+    line-height: 20px;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    color:aquamarine ;
+    
+}
+.footer-content q{
+    letter-spacing: 2px;
+    line-height: 1rem;
+    word-spacing: 3px;
+    font-style: italic;
+    color:#fff;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fefefe;
+    padding: 8px;
+    
+}
+
+.socials a i{
+    font-size: 1.46rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aquamarine;
+}
+
+.footer-bottom{
+   
+    background: aquamarine;
+    width: 80vm;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: #051c24;
+    font-size: 14px;
+    font-weight: 600;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    align-items: center;
+ }
+ 
+ .footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ }
+ @media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    } 

@@ -1,0 +1,78 @@
+.container{
+    background-color: rgb(242, 242, 242);
+    
+    
+}
+img{ 
+    
+    padding: 0 12px;
+    height: 75%;
+    width: auto;
+
+}
+.top-right{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.top-right h1{
+    padding: 0;
+    font-size: 40px;
+    color:rgb(2, 58, 67);
+    line-height: 3rem;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    cursor: pointer;
+}
+.top-right h1:hover{
+    color: rgb(12, 110, 114);
+}
+.top-right p{
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    padding: 5px;
+    color:rgb(2, 58, 67);
+}
+ button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 200px;
+    background-color: aquamarine ;
+    border-style: none;
+    
+    
+  }
+button a{
+    color: rgb(2, 16, 18);
+    font-weight: 500;
+    font-style: sans-serif;
+}
+
+button:hover{
+    background-color: rgb(23, 109, 124);
+    color:rgb(242, 242, 242);
+  }
+button a:hover{
+    color:rgb(242, 242, 242);
+}
+
+.logout input{
+    margin-left: 78%;
+    position: absolute;
+    margin-top: -12.15%;
+    font-size: 20px;
+    padding: 12px;
+    width: 100px;
+    background-color: aquamarine;
+    border-style: none;
+    color: rgb(2, 15, 18);
+    font-style: sans-serif;
+    
+    font-weight: lighter;
+}
+
+.logout input:hover{
+    background-color: rgb(23, 109, 124);
+    color:rgb(242, 242, 242);
+  
+}

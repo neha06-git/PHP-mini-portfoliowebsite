@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
+}
+   
+li, a{
+     font-family:sans-serif;
+     font-weight: 500;
+     font-size: 20px;
+     color: #fefefe;
+     text-decoration: none;
+   }
+   header{
+     display: flex;
+     background-color: #051c24;
+     justify-content: flex-start; 
+     align-items: center;
+     padding: 10px 5%;
+   }
+   
+   .logo{
+      cursor: pointer;
+      text-decoration: none;
+      font-family:Helvetica;
+      font-size: 20px;
+      font-weight: 600;
+      border: solid 3px aquamarine;
+      background-color: #051c24;
+      padding: 10px;
+      margin-right: auto;
+      margin-left: -70px;
+   }
+   
+   .nav__link{
+      list-style: none;
+   }
+   .nav__link li {
+     display: inline-block;
+     padding: 0px 30px;
+     
+   }
+   
+   .nav__link li a{
+      transition: all 0.3s ease 0s;
+      
+   }
+   .nav__link li a:hover{
+      color: aquamarine;
+      text-decoration: underline 2px solid aquamarine;
+   }
+   

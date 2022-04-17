@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://wallpaperaccess.com/full/16692.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  /* align items center vertically and horizontally  */
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 80vh;
+  }
+  .form{
+    width: 350px;
+    height: 450px;
+    background-color: #7ec1d1b8;
+    box-shadow: 0 5px 30px black;
+  }
+  .btn button {
+    padding: 3px;
+    margin: 30px 0px 40px 30px;
+    border-style: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-style: sans-serif;
+    text-align: center;
+    font-weight: 500;
+  }
+  .formGroup{
+    display: flex;
+    justify-content: center;
+  }
+  .formGroup input{
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: sans-serif;
+    background-color: transparent;
+    color: white;
+  }
+  input:focus {
+    outline: none !important;
+    border-bottom: 3px solid rgb(50, 172, 194);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: sans-serif;
+    color: white;
+  }
+  ::placeholder {
+    color: rgb(210, 199, 199);
+  }
+  
+  .text{
+    color: rgb(199, 197, 197);
+    font-size: 12px;
+    font-style: sans-serif;
+  }
+  .btn2{
+    margin-top: 60px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(45, 154, 156) ;
+    border-style: none;
+    color: white;
+    font-weight: 600;
+    font-style: sans-serif;
+  }
+  .btn2:hover{
+    background-color: rgb(23, 109, 124);
+  }
+  .btn button:hover{
+    border-bottom: 3px solid rgb(50, 172, 194);
+  }
+   
+  /* hide signup form 
+  .login{
+    display: none;
+  }
+   */
+  /* Login form code */
+  .login{
+    margin-top: 40px;
+    align-items: center;
+  }
+  

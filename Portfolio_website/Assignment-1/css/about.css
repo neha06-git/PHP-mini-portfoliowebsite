@@ -1,0 +1,63 @@
+.about{
+    background-size: 50%;
+    overflow: hidden;
+    padding: 55px 20px;
+    margin: 30px;
+}
+
+
+
+.inner-section{
+    margin: -10%;
+    overflow: hidde0n;
+    width:60%;
+    height: 75vh;
+    float: left;
+    background-color: aquamarine;
+    padding: 140px;
+    box-shadow: 12px 12px 8px rgb(0,0,0,0.3);
+}
+.inner-section h1{
+    
+    margin-top: 5%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000909;
+    
+    
+}
+
+.text{
+    
+    font-size: 13px;
+    font-weight: 600;
+    color: #000909;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.skills button{
+    
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    background-color: #032527;
+    color: #fff;
+    cursor: pointer;
+}
+.skills button:hover{
+    transition: 2s;
+    background-color: #011a1a;
+    color: #e3f1f1
+}
+
+
+
+

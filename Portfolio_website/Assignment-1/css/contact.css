@@ -1,0 +1,174 @@
+div{
+    margin: 20px;
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+   
+    
+}
+section{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-width:30vh;
+    background: #051c24;
+}
+
+section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:40%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+section .container{
+    position: relative;
+    min-width: 1000px;
+    min-width: 550px;
+    display: flex;
+    z-index: 1000;
+}
+
+section .container .contact-info{
+    position: absolute;
+    top: 17%;
+    bottom: 15%;
+    left: 50%;
+    width: 600px;
+    height: 500px;
+    background: aquamarine;
+    z-index: 1;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.5);
+
+}
+
+section .container .contact-info h2{
+    color: #051c24;
+    font-size: 44px;
+    font-weight: 600;
+    
+}
+
+
+section .container .contact-info .info{
+    position: relative;
+    margin: 50px 0;
+}
+
+section .container .contact-info li{
+    color:#051c24;
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 30px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+section .container .contact-info li span:nth-child(1){
+    width: 30px;
+    min-width: 30px;
+}
+section .container .contact-info li span:nth-child(1) i{
+    max-width: 100%;
+    
+}
+
+section .container .contact-info li span:nth-child(2){
+    color: #051c24;
+    margin-left: 10px;
+    font-weight: 500;
+    
+}
+
+section .container .contact-info li:hover span:nth-child(1) i,
+section .container .contact-info li:hover span:nth-child(12){
+    opacity: 1;
+    color:#fff;
+}
+
+section .container .contact-info .socials{
+    position: relative;
+    display: flex;
+}
+
+section .container .contact-info .socials li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+section .container .contact-info .socials li a{
+    text-decoration: none;
+}
+
+section .container .contact-info .socials li a i{
+    color: #051c24;
+    
+}
+
+section .container .contact-info .socials li:hover a i{
+    opacity: 1;
+    color: #fff;
+}
+
+section .contact-form h2{
+    font-size: 44px;
+    font-weight: 700;
+    color: #051c24;
+}
+
+section .contact-form h2:hover{
+    font-weight: bold;
+    border-bottom: 4px solid rgb(6, 61, 61);
+    color: rgb(6, 61, 61);
+    line-height: -6px;
+}
+
+section .contact-form .form-box {
+    background: #051c24;
+    color: #fff;
+    width: 150%;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.5);
+}
+
+form .input-box{
+    padding: 10px;
+}
+
+form input,textarea{
+    padding: 10px;
+    background: #fff;
+    width: 100%;
+    border:none;
+}
+
+form input:hover, textarea:hover{
+    box-shadow: 0 7px 9px rgba(13, 241, 195, 0.944);
+}
+
+form .input-box .btn{
+    width: 50%;
+    padding: 5px;
+    margin:5px;
+    font-size: 20px;
+    font-weight: 500;
+    background: aquamarine;
+    color:rgb(1, 17, 17);
+    box-shadow: 0 20px 20px rgba(0,0,0,0.5);
+   
+}
+
+form .input-box .btn:hover{
+    color: aquamarine;
+    background:rgb(1, 17, 17);
+    box-shadow: 0 7px 9px rgba(13, 241, 195, 0.944);
+}
